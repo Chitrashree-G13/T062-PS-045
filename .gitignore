@@ -1,4 +1,10 @@
+<<<<<<< HEAD
 *.class
 .idea/
 .vscode/
+=======
+*.class
+.idea/
+.vscode/
+>>>>>>> origin/main
 .DS_Store
