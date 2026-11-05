@@ -1,0 +1,52 @@
+# T062-PS-045 – Test Plan
+
+## A. Business Rule Tests
+
+| Test ID | Business Rule | Test scenario | Expected result |
+|---|---|---|---|
+| TC-01 | BR-01 | Book same seat on overlapping stages | Reject second booking |
+| TC-02 | BR-01 | Book same seat on A–C and C–E | Accept both |
+| TC-03 | BR-02 | Calculate stage fare across multiple stages | Correct sum |
+| TC-04 | BR-02 | Book lower sleeper | Add Rs 150 premium |
+| TC-05 | BR-03 | Male requests L-marked seat | Reject |
+| TC-06 | BR-03 | Male requests adjacent seat to solo female | Reject |
+| TC-07 | BR-04 | Occupancy exactly 70% | Apply 15% |
+| TC-08 | BR-04 | Occupancy exactly 90% | Apply 30% |
+| TC-09 | BR-05 | Child under 5 with adult | Free without seat |
+| TC-10 | BR-05 | Child exactly 5 | Charge child fare |
+| TC-11 | BR-06 | AC bus booking | Apply 5% GST |
+| TC-12 | BR-06 | Non-AC bus booking | Apply 0% GST |
+| TC-13 | BR-07 | Partner booking | Calculate 8% commission |
+| TC-14 | BR-07 | Cancellation through partner | Split cancellation fee 50:50 |
+| TC-15 | BR-08 | Cancellation at exactly 24 hours | Apply 75% refund |
+| TC-16 | BR-08 | Cancellation within 4 hours | Apply 0% refund |
+| TC-17 | BR-09 | Cancel one passenger in group booking | Cancel only that passenger |
+| TC-18 | BR-09 | Cancel adult with free child remaining | Reject |
+| TC-19 | BR-10 | Reschedule second time | Reject |
+| TC-20 | BR-10 | Reschedule less than 6 hours before boarding | Reject |
+| TC-21 | BR-10 | Reschedule to higher fare | Collect fee and positive fare difference |
+| TC-22 | BR-11 | Change boarding after original drop | Reject |
+| TC-23 | BR-12 | Operator cancels trip | Full refund and Rs 100 credit per passenger |
+
+## B. Edge Case Tests
+
+1. Same seat on A–C and C–E.
+2. Solo female passenger and adjacent male booking.
+3. Exactly 70% occupancy.
+4. Child aged exactly 5.
+5. Cancellation exactly 24 hours before boarding.
+6. Adult cancelled with free child remaining.
+7. Rescheduling to a trip with a higher dynamic multiplier.
+8. Boarding change to a stop after original drop.
+
+## C. Test Execution Record
+
+For each test, record:
+- Test ID
+- Input
+- Expected result
+- Actual result
+- PASS or FAIL
+- Date tested
+
+A test is marked PASS only when the actual result matches the expected result.
