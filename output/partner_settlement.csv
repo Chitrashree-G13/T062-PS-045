@@ -1,0 +1,4 @@
+partner_id,from_date,to_date,tickets_sold,base_fare_total,commission,cancellation_fee_share,commission_reversed,net_payable
+PRT-01,2026-10-01,2026-10-31,11,11470.00,917.60,204.36,0.00,1121.96
+PRT-02,2026-10-01,2026-10-31,14,12780.00,1022.40,212.88,211.20,1024.08
+PRT-03,2026-10-01,2026-10-31,12,15607.50,1248.60,484.25,0.00,1732.85
