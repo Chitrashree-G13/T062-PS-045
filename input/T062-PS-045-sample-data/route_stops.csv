@@ -1,0 +1,24 @@
+route_id,route_name,stop_seq,stop_id,offset_minutes,stage_fare_from_prev
+RT-01,Bengaluru - Mangaluru,1,STP-BLR,0,0.00
+RT-01,Bengaluru - Mangaluru,2,STP-NLM,45,90.00
+RT-01,Bengaluru - Mangaluru,3,STP-KNG,100,110.00
+RT-01,Bengaluru - Mangaluru,4,STP-HSN,210,180.00
+RT-01,Bengaluru - Mangaluru,5,STP-SKP,280,120.00
+RT-01,Bengaluru - Mangaluru,6,STP-UPN,390,160.00
+RT-01,Bengaluru - Mangaluru,7,STP-PTR,440,70.00
+RT-01,Bengaluru - Mangaluru,8,STP-MNG,510,90.00
+RT-02,Bengaluru - Hubballi,1,STP-BLR,0,0.00
+RT-02,Bengaluru - Hubballi,2,STP-TMK,80,90.00
+RT-02,Bengaluru - Hubballi,3,STP-CTA,200,170.00
+RT-02,Bengaluru - Hubballi,4,STP-DVG,270,110.00
+RT-02,Bengaluru - Hubballi,5,STP-HVR,350,120.00
+RT-02,Bengaluru - Hubballi,6,STP-HBL,420,130.00
+RT-03,Bengaluru - Belagavi,1,STP-BLR,0,0.00
+RT-03,Bengaluru - Belagavi,2,STP-TMK,80,90.00
+RT-03,Bengaluru - Belagavi,3,STP-CTA,200,170.00
+RT-03,Bengaluru - Belagavi,4,STP-DVG,270,110.00
+RT-03,Bengaluru - Belagavi,5,STP-RNB,320,70.00
+RT-03,Bengaluru - Belagavi,6,STP-HVR,350,60.00
+RT-03,Bengaluru - Belagavi,7,STP-HBL,420,130.00
+RT-03,Bengaluru - Belagavi,8,STP-DWD,450,40.00
+RT-03,Bengaluru - Belagavi,9,STP-BGM,540,120.00
