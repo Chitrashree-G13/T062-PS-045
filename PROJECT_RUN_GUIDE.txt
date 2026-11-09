@@ -1,0 +1,32 @@
+T062 / PS-045 – BUS RESERVATION SYSTEM
+
+RUN FROM THE PROJECT ROOT (Windows CMD)
+
+1) Compile the Java source:
+   if not exist out mkdir out
+   javac -d out src/model/*.java src/util/*.java src/service/*.java src/Main.java src/DataLoadTest.java
+
+2) Check CSV loading:
+   java -cp out DataLoadTest
+
+3) Run the official sample command file:
+   java -cp out Main input/T062-PS-045-sample-data/commands.txt
+
+4) Run the automated regression suite (Python 3 required):
+   python tests/verify_project.py
+
+OUTPUT
+The engine creates these files in output/:
+- tickets.csv
+- command_results.csv
+- trip_chart.csv
+- partner_settlement.csv
+
+The command_results.csv file contains one result per nonblank, noncomment command. line_no is the original physical line number in commands.txt. PRINT_TICKET is printed to the console using the final state after all commands have been processed.
+
+LATEST VERIFICATION
+- Java compilation succeeds.
+- CSV loading reads 3 routes, 4 buses, 10 trips and 3 partners.
+- The official sample contains 127 non-comment commands.
+- The automated verifier checks planted edge cases and interaction combinations.
+- See docs/verification-report.md for the exact latest test count and limitations.
