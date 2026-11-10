@@ -1,0 +1,11 @@
+# Executable regression suite
+
+The executable regression suite is `tests/verify_project.py`.
+
+Run it after compiling the project:
+
+```bash
+python tests/verify_project.py
+```
+
+It validates the official sample pack (127 command results), all eight planted edge cases, the documented extra traps, output schemas and sorting, plus five command-interaction combinations. The test report is `docs/verification-report.md`.
