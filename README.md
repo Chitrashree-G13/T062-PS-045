@@ -180,3 +180,10 @@ The test coverage and implementation mapping are documented in:
 | `tests/Test_Plan.md` | Business-rule test coverage and traceability. |
 | `PROJECT_RUN_GUIDE.txt` | Project execution guide. |
 
+## Evaluation Note
+
+The supplied sample-data pack does not contain expected output files. The final evaluation uses a separate hidden input set.
+
+The successful sample execution and regression verification demonstrate that the tested scenarios are working. However, they do not guarantee acceptance against every hidden evaluation case.
+
+Five implementation clarification topics are recorded in `docs/decision_log.md`. Mentor confirmation should be obtained if these topics have not already been resolved in the assignment discussion.
